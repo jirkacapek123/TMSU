@@ -1,7 +1,7 @@
 ![TMSU](http://tmsu.org/images/tmsu.png)
 
-[![Build Status](https://travis-ci.org/oniony/TMSU.svg?branch=master)](https://travis-ci.org/oniony/TMSU)
-[![Go Report Card](https://goreportcard.com/badge/github.com/oniony/TMSU)](https://goreportcard.com/report/github.com/oniony/TMSU)
+<!--[![Build Status](https://travis-ci.org/oniony/TMSU.svg?branch=master)](https://travis-ci.org/oniony/TMSU)
+[![Go Report Card](https://goreportcard.com/badge/github.com/oniony/TMSU)](https://goreportcard.com/report/github.com/oniony/TMSU)-->
 
 Overview
 ========
@@ -56,7 +56,7 @@ Documentation is maintained online on the wiki:
 Installing
 ==========
 
-Packages
+<!--Packages
 --------
 
 Thanks to the efforts of contributors using these platforms, packages are available
@@ -71,7 +71,7 @@ for the following GNU/Linux distributions:
     - Stable <https://search.nixos.org/packages?query=tmsu&show=tmsu>
     - Unstable <https://search.nixos.org/packages?query=tmsu&show=tmsu&channel=unstable>
 
-These packages are not maintained by me and I cannot guarantee their content.
+These packages are not maintained by me and I cannot guarantee their content.-->
 
 Binary
 ------
@@ -91,13 +91,14 @@ of the above packages, these should be installed automatically.)
     Copy the program binary. The location may be different for your operating
     system:
 
-        $ sudo cp bin/tmsu /usr/bin
+on Linux:
+        $ cp bin/tmsu ~/.local/bin
 
-2. Optional: Zsh completion
+<!--2. Optional: Zsh completion
 
     Copy the Zsh completion file to the Zsh site-functions directory:
 
-        $ cp misc/zsh/_tmsu /usr/share/zsh/site-functions
+        $ cp misc/zsh/_tmsu /usr/share/zsh/site-functions-->
 
 From Source
 -----------
@@ -108,14 +109,6 @@ in the root of the repository.
 About
 =====
 
-TMSU itself is written and maintained by [Paul Ruane](mailto:Paul Ruane <paul@tmsu.org>).
-
-The creation of TMSU is motivation in itself, but if you should feel inclinded
-to make a small gift via Pledgie or Bitcoin then it shall be gratefully received:
-
-  * <https://pledgie.com/campaigns/31085>
-  * `1TMSU5TL3Yj6AGP7Wq6uahTfkTSX2nWvM`
-
 TMSU is written in Go: <http://www.golang.org/>
 
 Much of the functionality the program provides is made possible by the FUSE and
@@ -125,7 +118,6 @@ Sqlite3 libraries, their Go bindings and the Go language standard library.
   * Project: <https://github.com/oniony/TMSU/>
   * Wiki: <https://github.com/oniony/TMSU/wiki>
   * Issue tracker: <https://github.com/oniony/TMSU/issues>
-  * Mailing list: <http://groups.google.com/group/tmsu>
 
 Release Notes
 =============
